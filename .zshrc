@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/kitika/.oh-my-zsh"
+export ZSH="/Users/lukorito/.oh-my-zsh"
 
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -75,18 +75,9 @@ plugins=(osx git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-alias digital-ocean="ssh kitika@178.62.87.119"
-alias mathias="ssh -i ~/.ssh/id_rsa_lukkittlive kitika@104.248.137.222"
-alias prodtest="testcafe chrome tests -e -q --debug-on-fail --assertion-timeout 20000 --selector-timeout 35000 --pageload-timeout 35000"
-alias kitika="ssh -i ~/.ssh/id_rsa_lukkittlive kitika@167.99.201.20"
-
+alias sovtech="cd /Users/lukorito/Desktop/Works/SovTech"
+alias python="python3"
 # export MANPATH="/usr/local/man:$MANPATH"
-#android simulator
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -142,3 +133,4 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
